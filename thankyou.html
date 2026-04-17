@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Booking Confirmed | Locs Atelier by Shee</title>
+
+<!-- FONTS -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Montserrat:wght@300;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(135deg, #fdf2f5, #ffffff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 45px 30px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 420px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.1);
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+/* CHECK ICON */
+.checkmark {
+    font-size: 65px;
+    color: #c59d5f;
+    margin-bottom: 15px;
+}
+
+/* TITLE */
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+/* TEXT */
+p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* BUTTON */
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 13px 22px;
+    background: linear-gradient(135deg, #c59d5f, #a67c3b);
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+/* WHATSAPP */
+.whatsapp {
+    display: block;
+    margin-top: 15px;
+    color: #25D366;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #aaa;
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="checkmark">✔</div>
+
+    <h1>Booking Received ✨</h1>
+
+    <p>
+        Thank you for choosing <strong>Locs Atelier by Shee</strong>.<br><br>
+        Your appointment request has been received successfully.
+    </p>
+
+    <p>
+        We will contact you shortly via call or WhatsApp to confirm your booking details.
+    </p>
+
+    <a href="index.html" class="button">Back to Booking</a>
+
+    <a class="whatsapp" href="https://wa.me/254113832180?text=Hi%20I%20just%20booked%20a%20locs%20appointment">
+        Message us on WhatsApp
+    </a>
+
+    <div class="footer">
+        Luxury locs care & styling ✨ Nairobi
+    </div>
+
+</div>
+
+</body>
+  </html>
